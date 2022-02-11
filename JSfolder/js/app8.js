@@ -1,11 +1,11 @@
-let obj = {
+let obj = { //create object
     height: 50,
     width: 25,
     color: "#34a4eb",
     positionx : 400,
     positiony : 150
 };
-function setup(){
+function setup(){ //create Canvas and 
     createCanvas(500,300);
     background(100);
 }

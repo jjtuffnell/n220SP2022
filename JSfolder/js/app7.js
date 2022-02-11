@@ -6,7 +6,7 @@ function setup() {
 }
 //let res = polarPoint function
 function draw () {
-    res = polarPoint();
+    res = polarPoint(90);
     translate(100,100); //translate before drawing method
     circle(res.x, res.y,10); 
 }

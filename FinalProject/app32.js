@@ -2,7 +2,7 @@
 //April 20 2022
 
 //declare constants and variables
-const statusDisplay = document.querySelector('.game--status');
+const statusDisplay = document.querySelector('.game');
 const winningMessage = () => `Player ${currentPlayer} has won!`;
 const drawMessage = () => `Game ended in a draw!`;
 const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
@@ -81,4 +81,4 @@ function handleRestartGame() {
 }
 //event listener for restart game and clicks
 document.querySelectorAll('.cell').forEach(cell => cell.addEventListener('click', handleCellClick));
-document.querySelector('.game--restart').addEventListener('click', handleRestartGame);
+document.querySelector('.restart').addEventListener('click', handleRestartGame);
